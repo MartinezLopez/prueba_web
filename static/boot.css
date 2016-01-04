@@ -1,0 +1,52 @@
+.modal-footer {
+  border-radius: 6px;
+	background: rgba(75,159,255,0.6);
+	text-align: right;
+	word-spacing: 30px;
+	color: #333;
+	font-size: 30px;
+	margin-top: 0px;
+	border-top: 0px;
+}
+
+a {
+  color: #333;
+}
+
+.jumbotron {
+  background-color: rgba(75,159,255,0.6);
+  margin-bottom: 0px;
+}
+
+.col-sm-4 {
+  background-color: #eee;
+  border-radius: 6px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+body{
+  background-color: rgba(96,96,96,0.4);
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+img{
+  width: 100%;
+}
+
+
+@media (min-width: 768px){
+.col-sm-4 {
+  width: 32.4%;
+}
+}

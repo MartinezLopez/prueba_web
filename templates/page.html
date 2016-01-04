@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ name }}</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/boot.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>{{ name }}</h1>
+    <p>Página de inicio de la aplicación</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Ver archivos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <a href="/list">Lista</a>
+    </div>
+    <div class="col-sm-4">
+      <h3>Subir archivos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Imagen aleatoria</h3>        
+      <p>Imagen extraida al azar de Imgur</p>
+      <img src="{{ img }}"></img>
+    </div>
+  </div>
+  <div class="modal-footer">
+  	<a href="/">Inicio</a>
+  	<a href="/users">Usuarios</a>
+  	<a href="/temp">Temperatura</a>
+  </div>
+</div>
+
+</body>
+</html>

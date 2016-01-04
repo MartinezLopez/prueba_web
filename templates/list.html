@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Listado de archivos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/static/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/boot.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Listado de archivos</h1>
+  </div>
+  <div class="row">
+    <ul>
+      {% for file in files %}
+      <li><a href="/list/{{ file }}">{{ file }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="modal-footer">
+  	<a href="/">Inicio</a>
+  	<a href="/users">Usuarios</a>
+  	<a href="/temp">Temperatura</a>
+  </div>
+</div>
+</body>
+</html>
